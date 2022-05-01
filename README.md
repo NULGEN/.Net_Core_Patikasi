@@ -1,3 +1,6 @@
 # Patika .Net_Core_Patikasi 
-### Veri Yapiları ve Algoritmalar
-[Patika/Veri Yapiları ve Algoritmalar/ Proje1](www.patika.dev) 
+### 1) Veri Yapiları ve Algoritmalar Projeleri
+***
+### 2) C# 101 Projeleri
+****
+[Patika/.Net Core Patikası Projeler](www.patika.dev) 
