@@ -1,0 +1,8 @@
+C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\ForLoop_While_Break_continue\ForLoop_While_Break_continue\bin\Debug\ForLoop_While_Break_continue.exe.config
+C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\ForLoop_While_Break_continue\ForLoop_While_Break_continue\bin\Debug\ForLoop_While_Break_continue.exe
+C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\ForLoop_While_Break_continue\ForLoop_While_Break_continue\bin\Debug\ForLoop_While_Break_continue.pdb
+C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\ForLoop_While_Break_continue\ForLoop_While_Break_continue\obj\Debug\ForLoop_While_Break_continue.csproj.AssemblyReference.cache
+C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\ForLoop_While_Break_continue\ForLoop_While_Break_continue\obj\Debug\ForLoop_While_Break_continue.csproj.SuggestedBindingRedirects.cache
+C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\ForLoop_While_Break_continue\ForLoop_While_Break_continue\obj\Debug\ForLoop_While_Break_continue.csproj.CoreCompileInputs.cache
+C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\ForLoop_While_Break_continue\ForLoop_While_Break_continue\obj\Debug\ForLoop_While_Break_continue.exe
+C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\ForLoop_While_Break_continue\ForLoop_While_Break_continue\obj\Debug\ForLoop_While_Break_continue.pdb
