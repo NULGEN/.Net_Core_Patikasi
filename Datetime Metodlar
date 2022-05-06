@@ -1,0 +1,16 @@
+private static void TarihTutma()
+        {
+            DateTime tarih = new DateTime(2009, 6, 6, 15, 30, 1, 5);
+
+            Console.WriteLine(tarih);
+
+            DateTime tarih2 = DateTime.Now;
+
+            Console.WriteLine(tarih2);
+            Console.WriteLine(DateTime.Now);
+
+            DateTime tarih3 = tarih2.AddDays(-90);
+            Console.WriteLine(tarih3);
+
+            int gun = tarih.Day;
+        }
