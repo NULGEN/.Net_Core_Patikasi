@@ -1,0 +1,92 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Odev1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // 1. Soru
+            Console.Write("Pozitif bir sayı girin: ");
+            int sayi= int.Parse(Console.ReadLine());
+
+            int [] dizi= new int[sayi];
+
+            for (int i = 0; i < sayi; i++)
+            {
+                Console.Write((i+1) + ". sayıyı girin: ");
+                dizi[i] = int.Parse(Console.ReadLine());
+            }
+            
+            for(int i = 0; i < dizi.Length; i++)
+            {
+                if (dizi[i]%2==0)
+                {
+                    Console.WriteLine(dizi[i]);
+                }
+            }
+
+            //2. Soru
+            Console.WriteLine();
+            Console.Write("1. Sayıyı giriniz: ");
+            int n= int.Parse(Console.ReadLine());
+            Console.Write("2. Sayıyı giriniz: ");
+            int m = int.Parse(Console.ReadLine());
+            int [] sayilar= new int[n];
+           
+            Console.WriteLine();
+            
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write((i+1)+". sayıyı giriniz: ");
+                sayilar[i] = int.Parse(Console.ReadLine());
+            }
+            for (int i = 0; i < sayilar.Length; i++)
+            {
+                if (sayilar[i]==m || sayilar[i]%m==0)
+                {
+                    Console.WriteLine(m + " sayısına eşit ya da bölünen sayılar: " + sayilar[i]);
+                }
+            }
+            Console.WriteLine();
+
+            // Soru 3 
+
+            Console.Write("Pozitif bir sayı giriniz: ");
+            int sayi3= int.Parse(Console.ReadLine());
+
+            string[] text = new string [sayi3];
+
+            for (int i = 0; i < sayi3; i++)
+            {
+                Console.Write((i+1)+". kelimeyi giriniz: ");
+                text[i] = Console.ReadLine();
+
+            }
+            Array.Reverse(text);
+
+            foreach (string item in text)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
+            // Soru 4
+            Console.WriteLine("Bir cümle yazın: ");
+            string cumle = Console.ReadLine();
+
+            string[] kelime = cumle.Split(' ');
+            
+            int kelimeSayisi= kelime.Length;
+            int harfSayisi = cumle.Length;
+           
+            Console.WriteLine("Toplam kelime sayısı: "+ kelimeSayisi+ " Toplam harf sayısı: "+ harfSayisi);
+           
+
+        }
+    }
+}
