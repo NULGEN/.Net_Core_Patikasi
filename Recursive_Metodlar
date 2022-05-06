@@ -1,0 +1,71 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RecursiveFunction
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Recursive
+            // 3^4 
+            int result = 1;
+            for (int i = 1; i <= 4; i++)
+            {
+                result = result* 3;
+
+            }
+            Console.WriteLine(result);
+            Islemler instance = new Islemler();
+
+            Console.WriteLine(instance.usAl(3,4));
+
+            // Extension metodalar
+
+            string ifade = "Patika net eğitimi";
+            bool sonuc= ifade.CheckSpaces();
+            Console.WriteLine(sonuc);
+            if (sonuc)
+            {
+                Console.WriteLine(ifade.RemoveWhiteSpaces());
+            }
+        }
+    }
+
+    public static class Extension
+    {
+        public static bool CheckSpaces(this string param)
+        {
+            return param.Contains(" ");
+        }
+
+        public static string RemoveWhiteSpaces ( this string param)
+        {
+            string[] dizi = param.Split(' ');
+            return string.Join("", dizi);
+        }
+    }
+    
+
+
+    public class Islemler
+    {      
+        public int usAl(int  sayi, int us)
+        {
+            int result=1;
+            if (us<=1)
+            {
+                return sayi;
+            }
+            return usAl(sayi, us - 1) * sayi;
+
+        }
+
+
+
+    }
+}
