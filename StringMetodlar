@@ -1,0 +1,161 @@
+using System;
+
+namespace Alistirma4A
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            TekCiftSayiDizileriOrnek();
+            Soru2();
+            Soru3();
+            Soru4();
+            Soru5();
+            
+            Soru 6
+            string ad = "nilüfer ülgen";
+
+            for (int i = ad.Length-1; i >= 0; i--)
+            {
+                Console.Write(ad[i]);
+            }
+
+
+        }
+
+        private static void Soru5()
+        {
+            string mesaj;
+            string sablon;
+            string ad = "Mehmet";
+            string hitap = "Bey";
+            string tarih = " 05.06.2020";
+            int saat = 18;
+
+            if (saat < 12)
+            {
+                sablon = "Günaydın {0} {1} ,faturanızın son ödeme tarihi: {2}";
+            }
+            else
+            {
+                sablon = "İyi akşamlar {0} {1} ,faturanızın son ödeme tarihi: {2}";
+
+            }
+            mesaj = string.Format(sablon, ad, hitap, tarih);
+            Console.WriteLine(mesaj);
+        }
+
+        private static void Soru4()
+        {
+            Console.Write("Sayı girin: ");
+            int sayi = int.Parse(Console.ReadLine());
+            Console.WriteLine("Girilen sayının karekökü: " + Math.Sqrt(sayi));
+        }
+
+        private static void Soru3()
+        {
+            Console.Write("Metin giriniz: ");
+            string metin = Console.ReadLine();
+
+            string[] kelimeler = metin.Split(' ');
+
+            for (int i = 0; i < kelimeler.Length; i++)
+            {
+                kelimeler[i] = IlkHarfiBuyut(kelimeler[i]);
+            }
+
+            string cikti = string.Join(" ", kelimeler);
+            Console.WriteLine(cikti);
+        }
+
+        private static void Soru2()
+        {
+            Console.Write("Adınız: ");
+            string ad = Console.ReadLine();
+            Console.WriteLine(IlkHarfiBuyut(ad));
+        }
+
+
+        static string IlkHarfiBuyut(string veri)
+        {
+            veri = veri.Substring(0, 1).ToUpper() + veri.Substring(1).ToLower();
+            return veri;
+
+        }
+
+        static void TekCiftSayiDizileriOrnek()
+        {
+            int[] tumSayilar = RastGeleDiziOlustur(5);
+            int[] tekSayilar = new int[TekCiftSayiAdediGetir(tumSayilar, "tek")];
+            int[] ciftSayilar = new int[TekCiftSayiAdediGetir(tumSayilar, "cift")];
+
+            int tekIndex = 0, ciftIndex = 0;
+
+            for (int i = 0; i < tumSayilar.Length; i++)
+            {
+                if (tumSayilar[i]%2==0)
+                {
+                    ciftSayilar[ciftIndex] = tumSayilar[i];
+                    ciftIndex++;
+                }
+                else
+                {
+                    tekSayilar[tekIndex] = tumSayilar[i];
+                    tekIndex++;
+                }
+
+
+            }
+            DiziYazdir(tumSayilar);
+            DiziYazdir(ciftSayilar);
+            DiziYazdir(tekSayilar);
+
+        }
+
+         static int TekCiftSayiAdediGetir(int[] dizi, string tip)
+         { 
+            int tekAdet = 0;
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                if (dizi[i]%2==1)
+                {
+                    tekAdet++;
+                }
+            }
+            if (tip=="tek")
+            {
+                return tekAdet;
+            }
+            else
+            {
+                return dizi.Length - tekAdet;
+            }
+
+         }
+
+        static int [] RastGeleDiziOlustur(int kapasite)
+        {
+            Random rdn = new Random();
+            int[] dizi = new int[kapasite];
+
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                dizi[i] = rdn.Next(10, 99);
+            }
+            return dizi;
+
+        }
+        static void DiziYazdir(int [] dizi)
+        {
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                Console.Write(dizi[i]+ " ");
+            }
+            Console.WriteLine();
+
+        }
+
+
+
+    }
+}
