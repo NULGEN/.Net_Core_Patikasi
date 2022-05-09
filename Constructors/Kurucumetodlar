@@ -1,0 +1,51 @@
+using System;
+
+namespace KurucuMetodlar
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Calisan calisan1 = new Calisan("Ali", "Aydemir", 342589, "Mühendis");
+
+            calisan1.CalisanBilgileri();
+
+            Calisan calisan2 = new Calisan("Yusuf", "Yılmaz", 87456, "Yönetici");
+
+            calisan2.CalisanBilgileri();
+
+        }
+    }
+
+    class Calisan
+    {
+
+        public string Ad;
+
+        public string Soyad;
+
+        public int No;
+
+        public string Departman;
+
+        public Calisan(string ad, string soyad, int no, string departman)
+        {
+            Ad = ad;
+            Soyad = soyad;
+            No = no;
+            Departman = departman;
+
+        }
+      
+         public Calisan {}
+
+
+        public void CalisanBilgileri()
+        {
+            Console.WriteLine("Çalınaşın Adı: {0}", Ad);
+            Console.WriteLine("Çalınaşın Soyadı: {0}", Soyad);
+            Console.WriteLine("Çalışanın Numarası: {0}", No);
+            Console.WriteLine("Çalınaşın Departmanı: {0}", Departman);
+
+        }
+    }
