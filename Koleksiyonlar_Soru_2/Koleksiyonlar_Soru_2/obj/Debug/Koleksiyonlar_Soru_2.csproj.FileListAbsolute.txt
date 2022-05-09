@@ -1,8 +1,0 @@
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar_Soru_2\Koleksiyonlar_Soru_2\obj\Debug\Koleksiyonlar_Soru_2.csproj.AssemblyReference.cache
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar_Soru_2\Koleksiyonlar_Soru_2\obj\Debug\Koleksiyonlar_Soru_2.csproj.SuggestedBindingRedirects.cache
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar_Soru_2\Koleksiyonlar_Soru_2\obj\Debug\Koleksiyonlar_Soru_2.csproj.CoreCompileInputs.cache
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar_Soru_2\Koleksiyonlar_Soru_2\bin\Debug\Koleksiyonlar_Soru_2.exe.config
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar_Soru_2\Koleksiyonlar_Soru_2\bin\Debug\Koleksiyonlar_Soru_2.exe
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar_Soru_2\Koleksiyonlar_Soru_2\bin\Debug\Koleksiyonlar_Soru_2.pdb
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar_Soru_2\Koleksiyonlar_Soru_2\obj\Debug\Koleksiyonlar_Soru_2.exe
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar_Soru_2\Koleksiyonlar_Soru_2\obj\Debug\Koleksiyonlar_Soru_2.pdb
