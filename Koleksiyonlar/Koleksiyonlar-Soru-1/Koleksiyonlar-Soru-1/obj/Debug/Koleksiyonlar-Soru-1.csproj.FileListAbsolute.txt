@@ -1,7 +1,0 @@
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\bin\Debug\Koleksiyonlar-Soru-1.exe.config
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\bin\Debug\Koleksiyonlar-Soru-1.exe
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\bin\Debug\Koleksiyonlar-Soru-1.pdb
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\Koleksiyonlar-Soru-1.csproj.AssemblyReference.cache
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\Koleksiyonlar-Soru-1.csproj.CoreCompileInputs.cache
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\Koleksiyonlar-Soru-1.exe
-C:\Users\niluf\Desktop\PATIKA\Patika_C#_Odevler\Koleksiyonlar\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\Koleksiyonlar-Soru-1.pdb
