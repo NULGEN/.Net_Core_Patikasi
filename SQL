@@ -39,3 +39,9 @@
 2. SELECT replacement_cost, COUNT(replacement_cost) FROM film GROUP BY replacement_cost HAVING COUNT(replacement_cost)>50;
 3. SELECT store_id, COUNT(*) FROM customer GROUP BY store_id;
 4. SELECT country_id, Count(*) as sehir  FROM city GROUP BY(country_id) ORDER BY sehir DESC LIMIT 1;
+
+8. ODEV-------------------
+1. CREATE TABLE employee ( id INTEGER, name VARCHAR(50), brithday DATE, email VARCHAR(100));
+2. insert into employee (id, name, birthday, email) values (1, 'Renaldo Flicker', '1962-08-03', 'rflicker0@howstuffworks.com');
+3. UPDATE employee SET name = 'deneme1' WHERE id= 11;
+4. DELETE FROM employee WHERE id>11;
