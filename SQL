@@ -55,3 +55,9 @@
 1. SELECT city.city, country.country FROM city LEFT JOIN country ON city.country_id = country.country_id;
 2. SELECT payment_id, first_name, last_name FROM customer RIGHT JOIN payment ON customer.customer_id = payment.customer_id;
 3. SELECT rental.rental_id, customer.first_name, customer.last_name FROM customer FULL JOIN rental ON customer.customer_id = rental.customer_id;
+
+11. ÖDEV --------------------
+1. (SELECT first_name FROM actor ORDER BY first_name) UNION ALL (SELECT first_name FROM customer ORDER BY first_name);
+2. (SELECT first_name FROM actor ORDER BY first_name) INTERSECT (SELECT first_name FROM customer ORDER BY first_name);
+3. (SELECT first_name FROM actor ORDER BY first_name) EXCEPT (SELECT first_name FROM customer ORDER BY first_name);
+4.(SELECT first_name FROM actor ORDER BY first_name) INTERSECT ALL (SELECT first_name FROM customer ORDER BY first_name);
