@@ -45,3 +45,8 @@
 2. insert into employee (id, name, birthday, email) values (1, 'Renaldo Flicker', '1962-08-03', 'rflicker0@howstuffworks.com');
 3. UPDATE employee SET name = 'deneme1' WHERE id= 11;
 4. DELETE FROM employee WHERE id>11;
+
+9. ODEV -----------------------
+1. SELECT city, country FROM city INNER JOIN country ON city.country_id = country.country_id;
+2. SELECT payment_id, first_name, last_name FROM customer INNER JOIN payment ON customer.customer_id = payment.customer_id;
+3. SELECT rental_id, first_name, last_name FROM customer INNER JOIN rental ON customer.customer_id = rental.customer_id; 
